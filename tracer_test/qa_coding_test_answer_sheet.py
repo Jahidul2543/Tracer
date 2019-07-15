@@ -102,7 +102,8 @@ class CountOddsAndEvensTests(object):
 # Below instance of this class can be used to test the function written in tracer_test.CountOddAndEven.py
 # obj = CountOddsAndEvensTests(tracer_app.CountOddAndEven.count_odds_and_evens)
 # now lets call all the test functions and see the result
-# print('test_small_list: ' + obj.test_small_list().__str__())
+# for string concatenation converted the function returned boolean to string using _str_() function
+# print("test_small_list: " + obj.test_small_list().__str__())
 # print("test_large_list: " + obj.test_large_list().__str__())
 # print("test_empty_list: " + obj.test_empty_list().__str__())
 # print("test_only_even_list: " + obj.test_only_even_list().__str__())
