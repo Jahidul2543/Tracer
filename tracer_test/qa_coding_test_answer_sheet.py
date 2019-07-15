@@ -99,7 +99,7 @@ class CountOddsAndEvensTests(object):
         return expected == actual
 
 
-# Using below instance of this class can be used to text the function written in tracer_test.CountOddAndEven.py
+# Below instance of this class can be used to test the function written in tracer_test.CountOddAndEven.py
 # obj = CountOddsAndEvensTests(tracer_app.CountOddAndEven.count_odds_and_evens)
 # now lets call all the test functions and see the result
 # print('test_small_list: ' + obj.test_small_list().__str__())
